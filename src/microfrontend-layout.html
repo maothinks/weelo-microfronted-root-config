@@ -1,0 +1,19 @@
+<single-spa-router>
+  <nav class="topnav">
+    <application name="@maothinks/microfrontend-navbar"></application>
+  </nav>
+  <div class="main-content">
+    <route path="properties">
+      <application name="@maothinks/microfrontend-properties"></application>
+    </route>
+    <route path="users">
+      <application name="@maothinks/microfrontend-users"></application>
+    </route>
+  </div>
+  <main>
+    <redirect from="/" to="/properties"></redirect>
+    <route default>
+      <application name="@maothinks/microfrontend-auth"></application>
+    </route>
+  </main>
+</single-spa-router>
