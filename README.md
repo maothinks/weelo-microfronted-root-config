@@ -13,7 +13,7 @@ In the index.ejs you can edit the applications loaded to this container.
 
 > Note: For tests, each application uses an specific port, see below config
 
-####index.ejs　
+#### index.ejs　
 
 ```javascript
 
@@ -43,17 +43,17 @@ npm start
 ```
 
 
-##System Diagram
+## System Diagram
 
 Weelo Properties System:
 
 ![](https://firebasestorage.googleapis.com/v0/b/weeloproject.appspot.com/o/WeeloPropertiesDiagram.png?alt=media&token=2ab10264-64c4-4cf1-9763-e93b82729069)
 
-## FRONTEND Video Demos
+## Frontend Video Demos
 
 Here you can watch some videos with the app functionality
 
-| DEMO | LINK VIDEO |
+| Use Case | Video Demo |
 | ------ | ------ |
 | Login and Sign-up |  <https://screencast-o-matic.com/watch/c3VF2xVoK4a> |
 | Create New Property | <https://screencast-o-matic.com/watch/c3VF2gVoKaM> |
@@ -66,6 +66,8 @@ Here you can watch some videos with the app functionality
 
 ## Technical Video Demos
 
+| Process | Video Demo |
+| ------ | ------ |
 | Runing Unit Tests | <https://screencast-o-matic.com/watch/c3VFD2VoK8k> |
 | Start Microservices | <https://screencast-o-matic.com/watch/c3VFDYVoKPR> |
 | Start Microfrontends | <https://screencast-o-matic.com/watch/c3VFDvVoKSD> |
