@@ -71,7 +71,7 @@ Here you can watch some videos with the app functionality
 | Runing Unit Tests | <https://screencast-o-matic.com/watch/c3VFD2VoK8k> |
 | Start Microservices | <https://screencast-o-matic.com/watch/c3VFDYVoKPR> |
 | Start Microfrontends | <https://screencast-o-matic.com/watch/c3VFDvVoKSD> |
-| RabBit MQ Monitor Queues | <https://screencast-o-matic.com/watch/c3VFDmVo7VR> |
+| Rabbit MQ Monitor Queues | <https://screencast-o-matic.com/watch/c3VFDmVo7VR> |
 
 
 
