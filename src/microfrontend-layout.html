@@ -6,12 +6,12 @@
     <route path="properties">
       <application name="@maothinks/microfrontend-properties"></application>
     </route>
-    <route path="users">
+    <route path="profile">
       <application name="@maothinks/microfrontend-users"></application>
     </route>
   </div>
   <main>
-    <redirect from="/" to="/properties"></redirect>
+    <redirect from="/" to="/login"></redirect>
     <route default>
       <application name="@maothinks/microfrontend-auth"></application>
     </route>

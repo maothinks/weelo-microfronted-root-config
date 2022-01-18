@@ -17,16 +17,16 @@ const layoutEngine = constructLayoutEngine({ routes, applications });
 
 //Register Applications
 registerApplication('@maothinks/microfrontend-auth', () => System.import('@maothinks/microfrontend-auth'),
-  () => window.location.pathname.indexOf('/login') === 0);
+  () => (window.location.pathname == '/login' || window.location.pathname == '/signup' || window.location.pathname == '/signup-success'));
 
 registerApplication('@maothinks/microfrontend-navbar', () => System.import('@maothinks/microfrontend-navbar'), 
-  () => (window.location.pathname.indexOf('/properties') === 0 || window.location.pathname.indexOf('/users') === 0));
+  () => (window.location.pathname.indexOf('/properties') === 0 || window.location.pathname.indexOf('/profile') === 0));
 
 registerApplication('@maothinks/microfrontend-properties', () => System.import('@maothinks/microfrontend-properties'), 
   () => window.location.pathname.startsWith('/properties') === true);
 
 registerApplication('@maothinks/microfrontend-users', () => System.import('@maothinks/microfrontend-users'), 
-  () => window.location.pathname.startsWith('/users') === true);
+  () => window.location.pathname.startsWith('/profile') === true);
 
 layoutEngine.activate();
 
